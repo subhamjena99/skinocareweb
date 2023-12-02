@@ -1,0 +1,756 @@
+.border-bottom-dashed-1{
+    border-bottom: 1px dashed #D1D1D6;
+}
+.border-bottom-dashed-2{
+    border-bottom: 2px dashed #D1D1D6;
+}
+.border-bottom-dashed-3{
+    border-bottom: 3px dashed #D1D1D6;
+}
+.border-bottom-dashed-4{
+    border-bottom: 4px dashed #D1D1D6;
+}
+.border-bottom-dashed-5{
+    border-bottom: 5px dashed #D1D1D6;
+}
+
+#accordianbut123 {
+    background-color: blue;
+}
+
+#accordianclass2 {
+    background: var(--foundation-sec-cream-light-hover, #FCFAF6);
+    --bs-accordion-border-color: transparent;
+}
+
+.accordianbut127 button {
+    padding: 0.4rem 0rem;
+    background-color: transparent;
+    border-color: transparent;
+    border: 1px solid;
+    border-radius: 27px;
+}
+
+
+
+#accordianclass2 button {
+    border: none;
+    border-color: transparent;
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#bordercolor123 {
+    --bs-accordion-border-color: transparent;
+
+}
+
+.checkoutform .accordion-collapse.collapse.show {
+    background: transparent;
+}
+
+.checkoutform h4 {
+    color: #000;
+    padding: 32px 0 24px 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+.checkoutform12 p {
+    color: var(--bg-primary-dark-elevated, #1C1C1E);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.coupon1 {
+    color: var(--gray-500, #667085);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.checkoutform .accordion-collapse.collapse label {
+    color: var(--bg-primary-dark-elevated, #1C1C1E);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.checkoutform .accordion-collapse.collapse input {
+    border-radius: 8px;
+    border: 1px solid var(--bg-primary-dark-elevated, #1C1C1E);
+    /* background: var(--White, #FFF); */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.checkoutform .accordion-collapse.collapse input[type="checkbox"] {
+    border-radius: 4px;
+
+}
+
+.form-control:focus {
+    /* border: none; */
+    box-shadow: none;
+}
+
+.form-select:focus {
+    /* border: none; */
+    box-shadow: none;
+}
+
+.form-select:hover {
+
+    background-color: white;
+    color: blue;
+}
+
+
+.checkoutpagebase.weight p {
+    color: #000;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    
+}
+
+.applycupan button {
+    border: none;
+    background: transparent;
+}
+
+.delivery-amount {
+    color: #101828 !important;
+    opacity: 0.3;
+}
+
+.breadcrumb-item {
+    color: var(--grays-gray-3-dark, #48484A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.breadcrum-active {
+    color: #F2553A;
+}
+
+
+.addadresscontainer{
+    display: flex; 
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.form-check-input,
+.form-check-input:checked{
+    background-color: #F1FEF5;
+    border-color: #6BD98F !important;
+}
+
+input[type='checkbox']:checked{
+    background-color: #6BD98F !important;
+    position: relative;
+}
+
+input[type='radio']{
+    background-color: #F1FEF5;
+    position: relative;
+}
+
+input[type='radio']:checked:after {
+    content: '';
+    background-color: #6BD98F;
+    width: 15px;
+    border-radius: 15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+@media (min-width:0px) and (max-width:601px) {
+
+
+    .checkoutpagebase p {
+        color: var(--gray-900, #101828);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .checkoutpagebase h2 {
+        color: var(--gray-900, #101828);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .checkoutpagebase h2 s {
+        color: var(--gray-400, #98A2B3);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        margin-left: 12px;
+        text-decoration-line: strikethrough;
+    }
+
+    .chaeckoutpagecontainer {
+        background-color: #fcf9f3;
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    .checkoutpageboxs {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .checkoutpagebox {
+        width: 99%;
+    }
+
+    .checkoutpageboxheading {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkoutpageboxheading h3 {
+        font-size: 4.4vw;
+    }
+
+    .checkoutpagebase {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin: 1rem 0rem; */
+    }
+
+    .checkoutpagebase p {
+        font-size: 3.9vw;
+    }
+    
+    .checkoutpagebase p.sub-title{
+        font-size: 3vw;
+        color: #98a2b3;
+    }
+
+    .checkoutpagebase p s {
+        font-size: 2.9vw;
+        color: #98a2b3;
+    }
+
+    .forminput p {
+        font-size: 4.7vw;
+    }
+
+    .checkoutform {
+        padding-top: 0.4rem;
+        border-bottom: 1px solid #98A2B3;
+    }
+
+    .selectform {
+        width: 100%;
+        padding: 0.4rem;
+        border: none;
+        background-color: transparent;
+        font-size: 4.7vw;
+        font-weight: 500;
+        margin: 0.5rem 0rem;
+    }
+
+    .selectform h4 {
+        padding: 1rem 0rem;
+    }
+
+    .applycupan {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .applycupan input {
+        width: 70%;
+        display: flex;
+        padding: 10px 14px;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 30px;
+        border: 1px solid var(--bg-primary-dark-elevated, #1C1C1E);
+        background: var(--White, #FFF);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+
+    .applycupan span {
+        display: flex;
+        padding: 10px 24px 10px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 30px;
+        border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+        background: var(--foundation-pri-green-normal, #D9F1E1);
+        margin: 0rem 0.6rem;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .checkoutform123 {
+        margin: 2rem 0rem;
+    }
+
+    .checkoutform123 button {
+        width: 100%;
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        border-radius: 30px;
+        border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+        background: var(--foundation-pri-green-normal, #D9F1E1);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+}
+
+@media (min-width:601px) and (max-width:1000px) {
+
+
+
+    .checkoutpagebase p {
+        color: var(--gray-900, #101828);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        
+        color: #000;
+    }
+
+    .checkoutpagebase h2 {
+        color: var(--gray-900, #101828);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+
+    .checkoutpagebase h2 s {
+        color: var(--gray-400, #98A2B3);
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        
+        margin-left: 12px;
+        text-decoration-line: strikethrough;
+
+    }
+
+
+
+    .chaeckoutpagecontainer {
+        background-color: #fcf9f3;
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    .checkoutpageboxs {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+
+    .checkoutpagebox {
+        width: 45%;
+
+    }
+
+    .checkoutpageboxheading {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkoutpageboxheading h3 {
+        font-size: 1.6vw;
+    }
+
+    .checkoutpagebase {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.25rem 0rem;
+    }
+
+    .checkoutpagebase p {
+        font-size: 1.8vw;
+    }
+    
+    .checkoutpagebase p.sub-title{
+        font-size: 1.5vw;
+        color: #98a2b3;
+    }
+
+    .checkoutpagebase p s {
+        font-size: 1.4vw;
+        color: #98a2b3;
+
+    }
+
+
+
+    .forminput p {
+        font-size: 1.9vw;
+    }
+
+    .checkoutform {
+        padding-top: 0.4rem;
+        border-bottom: 1px solid #98A2B3;
+    }
+
+    .selectform {
+        width: 100%;
+        padding: 0.4rem;
+        border: none;
+        background-color: transparent;
+        font-size: 1.9vw;
+        font-weight: 500;
+        margin: 0.5rem 0rem;
+    }
+
+    .selectform h4 {
+        padding: 1rem 0rem;
+    }
+
+    .applycupan {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .applycupan input {
+        width: 75%;
+        display: flex;
+        padding: 10px 14px;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 30px;
+        border: 1px solid var(--bg-primary-dark-elevated, #1C1C1E);
+        background: var(--White, #FFF);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    }
+
+    .applycupan span {
+        display: flex;
+        padding: 10px 24px 10px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 30px;
+        border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+        background: var(--foundation-pri-green-normal, #D9F1E1);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+
+    }
+
+    .checkoutform123 {
+        margin: 2rem 0rem;
+    }
+
+    .checkoutform123 button {
+        width: 100%;
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        
+        border-radius: 30px;
+        border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+        background: var(--foundation-pri-green-normal, #D9F1E1);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    }
+
+
+
+}
+
+@media (min-width:1000px) {
+
+    .chaeckoutpagecontainer {
+        background-color: #fcf9f3;
+    }
+
+    .chaeckoutpagecontainer {
+
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    .checkoutpageboxs {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+
+    .checkoutpagebox {
+        width: 45%;
+
+    }
+
+    .checkoutpageboxheading {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkoutpageboxheading h3 {
+        color: #000;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+
+    .checkoutpagebase {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.25rem 0rem;
+    }
+
+    .checkoutpagebase p {
+        color: var(--gray-900, #101828);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .checkoutpagebase p.sub-title{
+        font-size: 16px;
+        color: #98a2b3;
+    }
+
+    .checkoutpagebase h2 {
+        color: var(--gray-900, #101828);
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        
+
+
+    }
+
+    .checkoutpagebase h2 s {
+        color: var(--gray-400, #98A2B3);
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        
+        margin-left: 12px;
+        text-decoration-line: strikethrough;
+
+    }
+
+    .checkboxsigninbutton {
+        /* padding-bottom: 1rem; */
+    }
+
+    .forminput p {
+        font-size: 1.7vw;
+    }
+
+    .checkoutform {
+        padding-top: 0.4rem;
+        border-bottom: 1px solid #98A2B3;
+    }
+
+    .selectform {
+        width: 100%;
+        padding: 0.4rem;
+        border: none;
+        background-color: transparent;
+        font-size: 1.7vw;
+        font-weight: 500;
+        margin: 0.5rem 0rem;
+    }
+
+    .selectform h4 {
+        padding: 1rem 0rem;
+    }
+
+    .applycupan {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .applycupan input {
+        width: 75%;
+        display: flex;
+        padding: 10px 14px;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 30px;
+        border: 1px solid var(--bg-primary-dark-elevated, #1C1C1E);
+        background: var(--White, #FFF);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    }
+
+    .applycupan span {
+        display: flex;
+        padding: 10px 24px 10px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 30px;
+        border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+        background: var(--foundation-pri-green-normal, #D9F1E1);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+
+    .checkoutform123 {
+        margin: 2rem 0rem;
+    }
+
+    .checkoutform123 button {
+        width: 100%;
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        
+        border-radius: 30px;
+        border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+        background: var(--foundation-pri-green-normal, #D9F1E1);
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    }
+
+    .checkboxsigninbutton p {
+        color: #000;
+
+        /* Text md/Regular */
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        
+        /* 150% */
+    }
+
+    .checkboxsigninbutton p a {
+        color: var(--foundation-skin-normal-active, #BE9284) !important;
+
+        /* Text md/Regular */
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        
+        text-decoration-line: underline;
+    }
+
+}
+
+.paymentMethod {
+    display: flex;
+    /* width: 37.5rem; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.free p {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.checkboxs input {
+    /* width: 1.25rem;
+    height: 1.25rem; */
+    /* border-radius: 0.625rem;
+    background: var(--foundation-green-sec-light, #F1FEF5); */
+    border: 1px solid var(--foundation-green-sec-normal-hover, #6BD98F);
+
+}
+
+.checkboxs {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.checkboxs .check {
+    /* overflow: hidden;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 0.625rem;
+    border: 1px solid var(--foundation-green-sec-normal-hover, #6BD98F);
+    background: var(--foundation-green-sec-light, #F1FEF5); */
+
+}
+
+.button button {
+    display: flex !important;
+    height: 3.5rem !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    align-self: stretch !important;
+    border: none !important;
+    width: 100% !important;
+    color: white !important;
+    border-radius: 6.25rem !important;
+    background: var(--foundation-green-sec-normal, #F6A192) !important;
+}

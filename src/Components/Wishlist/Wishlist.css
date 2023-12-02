@@ -1,0 +1,452 @@
+/* =============================== */
+/* cart */
+/* =============================== */
+
+
+
+@media (min-width:0px) and (max-width:600px) {
+
+
+    .ratingsec {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        padding: 2px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: 20px;
+        background: var(--colors-green, #34C759);
+    }
+
+
+    .cartmaincontainer {
+        background-color: #fcfaf6;
+    }
+
+    .cartboxs1 {
+
+        padding-bottom: 2rem;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .cardbox1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid black;
+        padding: 36px 0rem;
+        margin: 1rem 0rem;
+        /* border-radius: 12px; */
+        position: relative;
+        gap: 20px;
+    }
+
+
+
+    .cartimgbox img {
+        width: 80px;
+        height: 100px;
+
+    }
+
+    .cartheding {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .cartcontentbox {
+        width: 75%;
+        margin: 0.4rem;
+    }
+
+    .cartheding h3 {
+        color: var(--gray-900, #101828);
+
+        /* Text lg/Medium */
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 155.556% */
+    }
+
+    .cartheding button {
+        display: flex;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 12px;
+        border: 1px solid var(--labels-secondary, #343B45);
+        background: var(--bg-primary, #FFF);
+
+    }
+
+    .cartheding1 p {
+        color: var(--gray-600, #475467);
+
+        /* Text md/Regular */
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .cartheding button span {
+        font-size: 1.4rem;
+        margin: 0rem 0.5vw;
+    }
+
+    .cartheding1 h2 span s {
+        color: var(--gray-400, #98A2B3);
+        margin-left: 12px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        text-decoration-line: strikethrough;
+
+    }
+
+    .cartheding1 h2 {
+        color: var(--gray-900, #101828);
+
+        /* Text xl/Semibold */
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 150% */
+
+
+    }
+
+    .cartheding1 p {
+        color: #525e6f;
+
+    }
+
+    .cartheding p {
+        color: var(--bg-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        /* 133.333% */
+        letter-spacing: -0.4px;
+    }
+
+
+
+
+
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .ratingsec {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        padding: 2px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: 20px;
+        background: var(--colors-green, #34C759);
+    }
+
+
+    .cartmaincontainer {
+        background-color: #fcfaf6;
+    }
+
+    .cartboxs1 {
+
+        padding-bottom: 2rem;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .cardbox1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid black;
+        padding: 36px 0rem;
+
+        position: relative;
+        gap: 20px;
+    }
+
+
+
+    .cartimgbox img {
+        width: 75px;
+        height: 100px;
+
+    }
+
+    .cartheding {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .cartcontentbox {
+        width: 75%;
+        margin: 0.4rem;
+    }
+
+    .cartheding h3 {
+        color: var(--gray-900, #101828);
+
+        /* Text lg/Medium */
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 155.556% */
+    }
+
+    .cartheding button {
+        display: flex;
+        padding: 4px 6px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 12px;
+        border: 1px solid var(--labels-secondary, #343B45);
+        background: var(--bg-primary, #FFF);
+
+    }
+
+    .cartheding1 p {
+        color: var(--gray-600, #475467);
+
+        /* Text md/Regular */
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .cartheding button span {
+        font-size: 1.5vw;
+        margin: 0rem 0.5vw;
+    }
+
+    .cartheding1 h2 span s {
+        color: var(--gray-400, #98A2B3);
+        margin-left: 12px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        text-decoration-line: strikethrough;
+
+    }
+
+    .cartheding1 h2 {
+        color: var(--gray-900, #101828);
+
+        /* Text xl/Semibold */
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 150% */
+
+
+    }
+
+    .cartheding1 p {
+        color: #525e6f;
+
+    }
+
+    .cartheding p {
+        color: var(--bg-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        /* 133.333% */
+        letter-spacing: -0.4px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:1000px) {
+
+    .ratingsec {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        padding: 2px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: 20px;
+        background: var(--colors-green, #34C759);
+    }
+
+
+    .cartmaincontainer {
+        background-color: #fcfaf6;
+    }
+
+    .cartboxs1 {
+
+        padding-bottom: 2rem;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .cardbox1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid black;
+        padding: 36px 1rem;
+        /* border-radius: 12px; */
+        position: relative;
+        gap: 40px;
+    }
+
+
+
+    .cartimgbox img {
+        width: 95px;
+        height: 120px;
+
+    }
+
+    .cartheding {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .cartcontentbox {
+        width: 75%;
+        margin: 0.4rem;
+    }
+
+    .cartheding h3 {
+        color: var(--gray-900, #101828);
+
+        /* Text lg/Medium */
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 155.556% */
+    }
+
+    .cartheding button {
+        display: flex;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 12px;
+        border: 1px solid var(--labels-secondary, #343B45);
+        background: var(--bg-primary, #FFF);
+
+    }
+
+    .cartheding1 p {
+        color: var(--gray-600, #475467);
+
+        /* Text md/Regular */
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .cartheding button span {
+        font-size: 1.5vw;
+        margin: 0rem 0.5vw;
+    }
+
+    .cartheding1 h2 span s {
+        color: var(--gray-400, #98A2B3);
+        margin-left: 12px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        text-decoration-line: strikethrough;
+
+    }
+
+    .cartheding1 h2 {
+        color: var(--gray-900, #101828);
+
+        /* Text xl/Semibold */
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 150% */
+
+
+    }
+
+    .cartheding1 p {
+        color: #525e6f;
+
+    }
+
+    .cartheding p {
+        color: var(--bg-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        /* 133.333% */
+        letter-spacing: -0.4px;
+    }
+
+}

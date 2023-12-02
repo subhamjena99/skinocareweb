@@ -1,0 +1,237 @@
+.productbox123 {
+    display: flex;
+    width: 220px;
+    width: 210px;
+    padding: 20px;
+    padding: 0px 0px 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+}
+
+.productimg12 {
+    width: 160px;
+    width: 100%;
+    height: 160px;
+    height: 200px;
+    position: relative;
+    margin-top: 0;
+}
+
+.productimg12 img {
+    width: 160px;
+    height: 160px;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.productimg12 p {
+    display: flex;
+    padding: 2px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 20px;
+    background: var(--colors-green, #34C759);
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    right: 6px;
+    top: 6px;
+}
+
+.productimg12 p span {
+    color: var(--bg-primary, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+.productcontent2 p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.productcontent2 h3 {
+
+    color: var(--gray-900, #101828);
+
+    /* Text xl/Semibold */
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.productcontent2 h3 s {
+
+    color: var(--gray-400, #98A2B3);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    text-decoration-line: strikethrough;
+}
+
+.productbutton12 button {
+    display: flex;
+    padding: 16px 16px 16px 24px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 30px;
+    border: 1px solid var(--foundation-pri-green-normal, #D9F1E1);
+    background: var(--foundation-pri-green-normal, #D9F1E1);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: var(--Black, #000);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+.productbutton12 button img {
+
+
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0rem 0.5rem;
+
+}
+
+.productsliderboxs2 {
+    display: flex;
+    overflow-x: auto;
+    /* border: 1px solid black;  */
+}
+
+.productsliderboxs2::-webkit-scrollbar {
+    /* display: none; */
+    width: 0;
+}
+
+@media (min-width:1000px) and (max-width: 1400px){
+    .productbox123{
+        width: 200px;
+    }
+
+    .productbutton12 svg{
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width:376px) and (max-width:480px) {
+    .productbox123 {
+        width: 165px;
+    }
+
+    .productimg12,
+    .productimg12 img {
+        width: 140px;
+        height: 140px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    .productimg12{
+        height: 180px;
+    }
+
+    .productimg12 p {
+        right: -8px;
+        top: -8px;
+        right: 6px;
+        top: 6px;
+        z-index: 1;
+    }
+
+    .productcontent1 p {
+        font-size: 14px;
+    }
+
+    .productcontent1 h3 {
+        font-size: 16px;
+        padding-bottom: 18px;
+    }
+
+    .productbutton12 button {
+        font-size: 12px;
+        padding: 8px 8px 8px 12px;
+    }
+}
+
+@media (min-width:0px) and (max-width:376px) {
+    .productbox123 {
+        width: 140px;
+        padding: 12px;
+        padding: 0 0 12px 0;
+    }
+
+    .productimg12,
+    .productimg12 img {
+        width: 120px;
+        height: 120px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    .productimg12{
+        height: 140px;
+    }
+
+    .productimg12 p {
+        right: -2px;
+        top: -8px;
+        right: 6px;
+        top: 6px;
+        padding: 1px 3px;
+        z-index: 1;
+    }
+
+    .productcontent1 p {
+        font-size: 12px;
+        margin-bottom: 0.5rem;
+    }
+
+    .productcontent1 h3 {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+    
+    .productcontent1 h3 s{
+        font-size: 12px;
+        margin-left: 6px;
+    }
+
+    .productbutton12 button {
+        font-size: 12px;
+        padding: 8px 8px 8px 12px;
+    }
+
+    .productbutton12 svg{
+        margin-left: 0.3rem;
+        width: 16px;
+        height: 16px;
+    }
+}

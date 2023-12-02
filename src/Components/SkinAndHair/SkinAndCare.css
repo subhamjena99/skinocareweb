@@ -1,0 +1,516 @@
+.skincarescontainer {
+    padding-top: 8rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+
+.skincarecontent {
+    color: var(--bg-primary-dark-elevated, #1C1C1E);
+
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.skincarecontent h3 {
+    color: var(--bg-primary-dark-elevated, #1C1C1E);
+    margin: 2.5rem 0;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.skincarecontent h4 {
+    margin: 2.5rem 0;
+}
+
+.skincarecontent p {
+    font-size: 1rem;
+}
+
+.skincarecontent li {
+    margin: 1rem 0;
+}
+
+/* profilelinks */
+
+.doctorprofile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.doctorprofile .doctorprofileimg img {
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5rem;
+    /* background: var(--avatar-user-square-olivia-rhye, url(<path-to-image>), lightgray 50% / cover no-repeat); */
+}
+
+
+@media (min-width:0px) and (max-width:660px) {
+    .doctorlink {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media (min-width:600px) {
+    .doctorlink {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+}
+
+.doctorprofile .profilename p {
+    color: var(--gray-900, #101828);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.doctorprofile .profilename span {
+    color: var(--gray-500, #667085);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.doctorprofilelinks {
+    display: flex;
+    gap: 4px;
+
+}
+
+.doctorprofilelinks button {
+    display: flex;
+    padding: 0.625rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+
+.profilename #blog {
+    color: var(--foundation-pi-1-normal, #F6A192);
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    /* color: #F6A192; */
+
+}
+
+.profilename h1 {
+    color: var(--gray-900, #101828);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.045rem;
+}
+
+.profilename #blog2 {
+    color: var(--gray-500, #667085);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.doctorprofilelinks #blogbutton {
+    display: flex;
+    padding: 0.75rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--foundation-pi-1-normal, #F6A192);
+    background: var(--foundation-pi-1-normal, #F6A192);
+
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: white;
+}
+
+
+
+/* cards */
+
+
+
+.blogpostcards {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    /* flex-wrap: wrap; */
+
+}
+
+@media (min-width:0px) and (max-width:470px) {
+    .blogpostcard {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+
+        position: relative;
+    }
+
+    .blogpostcards {
+        display: flex;
+        gap: 2rem;
+        position: relative;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width:470px) and (max-width:700px) {
+    .blogpostcard {
+        width: 46%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+
+        position: relative;
+    }
+
+    .blogpostcards {
+        display: flex;
+        gap: 2rem;
+        position: relative;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width:700px) {
+    .blogpostcard {
+        width: 32%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+
+        position: relative;
+    }
+
+    .blogpostcards {
+        display: flex;
+        gap: 2rem;
+        position: relative;
+        justify-content: space-between;
+        width: 100%;
+        /* flex-wrap: wrap; */
+
+    }
+}
+
+
+
+.blogpostcard img {
+    width: 100%;
+
+}
+
+.blogpostcontentarrow {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.blogpostcontentarrow span img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.blogpostcard .blogpostcontent p {
+    color: var(--foundation-pi-1-normal-active, #C58175);
+
+    /* Text sm/Semibold */
+
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    /* 142.857% */
+}
+
+.blogpostcontent h5 {
+
+    color: var(--gray-500, #667085);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blogpostcart {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.blogpostcart img {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5rem;
+    /* background: var(--avatar-user-square-olivia-rhye-color-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #C7B9DA); */
+}
+
+.blogpostcart span h2 {
+    color: var(--gray-900, #101828);
+
+    /* Text sm/Semibold */
+
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.blogpostcart span p {
+    color: var(--gray-500, #667085);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.skinAndCare2Container {
+    padding-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+}
+
+.headingsearchfilter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 68%;
+    margin: autos;
+    position: relative;
+}
+
+.headingsearchfilter .searchinput {
+    width: 100%;
+    position: relative;
+}
+
+.searchinput svg {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+}
+
+.headingsearchfilter .searchinput input {
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    align-items: flex-end;
+    gap: 8px;
+    padding-left: 3rem;
+    align-self: stretch;
+    border-radius: 50px;
+    border: 1px solid var(--foundation-sec-cream-normal, #ECDEC1);
+    background: var(--foundation-pri-cream-light, #FFFEFD);
+
+}
+
+.headingsearchfilter .searchinput input:focus-visible {
+    outline-color: var(--foundation-sec-cream-normal, #ECDEC1);
+}
+
+.skincare2buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.skincare2buttons button {
+    color: #343B45;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
+
+
+.skinAndAcretwoboxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.skinAndAcretwobox {
+    border-radius: 40px;
+    background: linear-gradient(135deg, #F6B092 0%, #F6CF92 100%);
+    position: relative;
+    width: 280px;
+    height: auto;
+}
+
+
+.skinAndAcretwobox img {
+    position: relative;
+    width: 280px;
+    height: auto;
+
+}
+
+.onimgcontent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.onimgcontent p {
+    color: var(--gray-900, #101828);
+
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.onimgcontent h4 {
+    color: var(--gray-900, #101828);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+
+
+.skinAndAcretwobox12 {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.skinAndAcretwobox12::-webkit-scrollbar {
+    width: 0;
+}
+
+@media (min-width:0px) and (max-width:942px) {
+    .skinAndAcretwobox12 {
+        display: flex;
+        gap: 40px;
+        overflow: auto;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .skinAndAcretwobox12::-webkit-scrollbar {
+
+        width: 0;
+    }
+}
+
+.videoplaybutton {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoplaybutton img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.modal-backdrop {
+    width: 100%;
+    height: 100%;
+}
+
+.popupvideo {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.nav-tabs .nav-link {
+    border: none;
+
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:hover {
+    color:  #EEB6A5;
+    ;
+}
+
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+@media (min-width:0px) and (max-width:329px) {
+    .headingsearchfilter{
+        width: 90%;
+    }
+}

@@ -1,0 +1,13 @@
+.footercontainer{
+    position: relative;
+}
+
+.gouplogo {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    padding: 8px;
+    border-radius: 100%;
+    background: var(--foundation-pri-cream-darker, #585653);
+    z-index: 1;
+}

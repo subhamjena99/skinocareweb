@@ -1,0 +1,285 @@
+.testimonialscontainrs {
+    padding-top: 9rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    gap: 40px;
+
+}
+
+.myskincareJourny {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 2rem;
+}
+
+.myskincareJourny p {
+    align-self: stretch;
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+.skinOcareswipeboxs {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: flex-end;
+    gap: 24px;
+    overflow: auto;
+    padding-bottom: 1rem;
+}
+
+.skinOcareswipeboxs::-webkit-scrollbar {
+    /* display: none; */
+    width: 0;
+}
+
+.skinOcareswipebox {
+    width: 220px;
+    height: 220px;
+    background: var(--avatar-user-square-noah-pierre-color-background, lightgray 50% / cover no-repeat, #D4AFBD);
+    position: relative;
+    cursor: pointer;
+}
+
+.realDoctorTestimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.realDoctorTestimonials p {
+    align-self: stretch;
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+.realdoctorsboxs {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: flex-start;
+    gap: 40px;
+    overflow: auto;
+    padding-bottom: 1rem;
+}
+
+.realdoctorsboxs::-webkit-scrollbar {
+    /* display: none; */
+    width: 0;
+}
+
+.realdoctorsbox {
+    border-radius: 24px;
+    border: 1px solid var(--foundation-skin-light-active, #FAE8E3);
+    background: var(--bg-primary, #FFF);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.realdoctorsbox .realdoctorimg img {
+    width: 240px;
+    height: 220px;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.realdoctorsbox p {
+    align-self: stretch;
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: -0.4px;
+    width: 235px;
+    margin: 0;
+}
+
+.realdoctorsbox span {
+    align-self: stretch;
+    color: var(--grays-gray-3-dark, #48484A);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: -0.4px;
+}
+
+.realdoctorsbox button {
+    color: white;
+    display: flex;
+    padding: 10px 16px 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border: none;
+    border-radius: 100px;
+    background: var(--foundation-green-sec-normal, #F6A192);
+}
+
+.realdoctorsbox button span {
+    color: white;
+}
+
+.realdoctorsbox button span img {
+    width: 18px;
+    height: 18px;
+}
+
+.caseStudys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.caseStudys p {
+    align-self: stretch;
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+.casestudyboxs {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.casestudyboxs::-webkit-scrollbar {
+    /* display: none; */
+    width: 0;
+}
+
+.casestudybox {
+    display: flex;
+    width: 220px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+.casestudybox .img2 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background: var(--avatar-user-square-olivia-rhye, lightgray 50% / cover no-repeat);
+}
+
+.casestudybox p {
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    margin: 0;
+}
+
+.casestudybox h4 {
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    align-self: stretch;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: -0.4px;
+}
+
+.casestudybox button {
+    height: 40px;
+    border: none;
+    display: flex;
+    padding: 10px 16px 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    align-self: stretch;
+    border-radius: 100px;
+    background: var(--foundation-green-sec-normal, #F6A192);
+}
+
+.casestudybox button span {
+    color: white;
+}
+
+.sec6c {
+    border-radius: 80px;
+    border: 1px solid #F6C492;
+    background: var(--foundation-pi-3-light, #FEF9F4);
+    overflow: hidden;
+}
+
+.playbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* testimonials read more modal */
+.modal-h6 {
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+.modal-p {
+    color: var(--bg-grouped-primary-dark-elevated, #1C1C1E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+.modal-span {
+    color: var(--bg-primary-dark-elevated, #1C1C1E);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: -0.4px;
+}
+
+.viewmorblock {
+    display: block;
+}
+
+.viewmornone {
+    display: none;
+}
